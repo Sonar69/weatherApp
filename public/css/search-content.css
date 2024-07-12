@@ -1,0 +1,30 @@
+#search-content {
+    display: grid;
+    grid-template-rows: repeat(6, 20%);
+    text-align: center;
+    gap: 1em;
+    justify-items: center;
+}
+
+#search-content label {
+    font-size: 1.5em;
+    color: #080707;
+}
+
+#search-country {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 2rem;
+    width: 25em;
+    height: 2em;
+}
+
+#search-country-select {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 1rem;
+    width: 25em;
+    height: 2em;
+}

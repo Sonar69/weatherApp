@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="public/css/style.css">
+	<link rel="stylesheet" href="public/css/button.css">
+	<link rel="stylesheet" href="public/css/search-content.css">
+	<link rel="stylesheet" href="public/css/content-info-weather.css">
+	<title>Api météo</title>
+</head>
+<body>
+<div id="main">
+	<div id="search-content">
+		<button id="geolocation" type="button">Geolocalisation</button>
+		<label for="search-country">Rechercher votre ville</label>
+		<input type="text" name="search-country" id="search-country">
+		<label for="search-country-select"></label>
+		<select name="search-country-select" id="search-country-select"></select>
+		<button id="button-valid" type="button"> Selectionné</button>
+	</div>
+	<div id="content">
+		<div id="date-time-container"></div>
+		<div id="containerAPI"></div>
+		<div id="containerAPI-all-day"></div>
+	</div>
+</div>
+<video id="video-sun" src="./public/video/sun.mp4" hidden></video>
+<video id="video-sun-little" src="./public/video/sun-little.mp4" hidden></video>
+<video id="video-thunderstorm" src="./public/video/thunderstorm.mp4" hidden></video>
+<video id="video-rain" src="./public/video/rain.mp4" hidden></video>
+<video id="video-rain-little" src="./public/video/rain-little.mp4" hidden></video>
+<video id="video-snow" src="./public/video/snow.mp4" hidden></video>
+<video id="video-snow-little" src="./public/video/snow-little.mp4" hidden></video>
+<video id="video-cloud" src="./public/video/cloud.mp4" hidden></video>
+<video id="video-cloud-little" src="./public/video/cloud-little.mp4" hidden></video>
+<footer>
+	<span class="copyrigth"> © 2024 - BONNET CLEMENT</span>
+</footer>
+<script defer src="library/api.js" type="module"></script>
+</body>
+</html>
